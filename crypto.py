@@ -3,7 +3,6 @@ import time
 import sys
 import os
 
-#os.system("clear")
 os.system('cls' if os.name == 'nt' else 'clear')
 
 LICENSE = """
