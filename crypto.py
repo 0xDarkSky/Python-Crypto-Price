@@ -76,7 +76,7 @@ def fast_type(z):
 logo_type(logo)
 
 
-logo_type("Time between responses (seconds)?\n")
+logo_type("Time between responses (seconds)?\n") #replace logo_type to print if you don't like the way that logo_type function works
 x = input("")
 sx = float(x)
 
@@ -96,21 +96,21 @@ def get_price_usd():
     
 
 def choose_currency():
-    logo_type("Choose currency to display (EUR - 1  or USD - 2)? \n")
+    logo_type("Choose currency to display (EUR - 1  or USD - 2)? \n") #replace logo_type to print if you don't like the way that logo_type function works
     eurusd = input("")
     if eurusd == "1":
        unlimited_eur()
     elif eurusd == "2":
        unlimited_usd()
     else: 
-       logo_type("Wrong answer, please choose 1 or 2!\n")
+       logo_type("Wrong answer, please choose 1 or 2!\n") #replace logo_type to print if you don't like the way that logo_type function works
        neweurusd = input("")
        if neweurusd == "1":
           unlimited_eur()
        elif neweurusd == "2":
           unlimited_usd()
        else:
-          logo_type("Wrong answer again!\n")
+          logo_type("Wrong answer again!\n") #replace logo_type to print if you don't like the way that logo_type function works
           exit()  
 
 def unlimited_eur():
